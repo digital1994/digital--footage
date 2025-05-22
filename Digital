@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore digital footage and multimedia content by Digital 1994." />
+  <meta name="keywords" content="Digital Footage, Video, Media, Portfolio, Photography" />
+  <meta name="author" content="Digital1994" />
+  <meta property="og:title" content="Digital Footage" />
+  <meta property="og:description" content="Explore digital footage and multimedia content by Digital 1994." />
+  <meta property="og:image" content="/images/preview.jpg" />
+  <meta property="og:url" content="https://digital1994.github.io/digital--footage/" />
+  <title>Digital Footage</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Digital Footage</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <main class="hero">
+    <section class="intro">
+      <h2>Welcome to Digital Footage</h2>
+      <p>Showcasing digital media, film, and creative work.</p>
+      <a href="
