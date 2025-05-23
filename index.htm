@@ -6,7 +6,56 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
+  <h1>Welcome to My Website</h1><!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hi, I’m [Your Name], a digital content creator passionate about storytelling, design, and technology. This site showcases my portfolio, thoughts, and digital experiments.</p>
+</section>
+
+<!-- Navigation Links -->
+<nav>
+  <ul>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+  <h2>Featured Projects</h2>
+  <div class="project">
+    <img src="images/project1.jpg" alt="Project 1">
+    <h3>Project Title</h3>
+    <p>Short description of your project. <a href="#">View More</a></p>
+  </div>
+  <!-- Duplicate .project blocks for more items -->
+</section>
+
+<!-- Blog Preview Section -->
+<section id="blog">
+  <h2>Latest Posts</h2>
+  <article>
+    <h3>Blog Post Title</h3>
+    <p>Intro to the blog post... <a href="#">Read more</a></p>
+  </article>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label>Your Name: <input type="text" name="name"></label><br>
+    <label>Your Email: <input type="email" name="_replyto"></label><br>
+    <label>Message:<br><textarea name="message"></textarea></label><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Your Name | <a href="https://github.com/digital1994">GitHub</a></p>
+</footer>
   <p>This is a simple webpage built with HTML, CSS, and JS.</p>
 
   <button onclick="showMessage()">Click Me</button>
